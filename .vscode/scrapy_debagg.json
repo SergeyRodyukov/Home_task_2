@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ScrapyCrawl: computers_2",
+            "type": "python",
+            "request": "launch",
+            "module": "scrapy",
+            "args": [
+                "crawl",
+                "computers",
+                "-o",
+                "computers.json"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}
